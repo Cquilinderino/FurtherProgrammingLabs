@@ -1,0 +1,17 @@
+Write a program that randomly generates an integer between 0 and 100 (0 and 100 are inclusive). The program asks the user to enter a number repeatedly until the number matches the randomly generated number. The program tells the user whether the input is too low or too high, so the user can guess the number closer to the right one at each input. Below shows a sample output:
+Guess a magic number between 0 and 100
+Enter your guess: 1
+Your guess is too low
+Enter your guess: 50
+Your guess is too high
+Enter your guess: 40
+Your guess is too low
+Enter your guess: 45
+Your guess is too low
+Enter your guess: 47
+Your guess is too low
+Enter your guess: 48
+Your guess is too low
+Enter your guess: 49
+Yes, the number is 49
+Hint: use Scanner input = new Scanner(System.in); to read user input.
