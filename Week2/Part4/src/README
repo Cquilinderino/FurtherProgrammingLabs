@@ -1,0 +1,17 @@
+Extend the account class to create a new subclass called CAccount for modelling a checking
+account, with the following features:
+A. Checking accounts can use an overdraft facility, so the new class will need instance
+variables for the overdraft limit and the amount overdrawn.
+B. The overdraft should not be used unless the current balance is insufficient to cover a
+withdrawal.
+C. When funds are deposited and there is an overdrawn amount, the funds should be used
+to reduce the overdrawn amount to 0 before the balance can be increased. For example,
+if overdrawn amount is $200, when $500 is deposited, overdrawn amount should be
+reset to 0, and the remaining amount $300 should be added to balance setting it at $300.
+D. A new constructor will be required that accepts the account name, ID, initial balance
+and overdraft limit. This constructor should use the super() facility to initialise the
+account ID, name and balance. This constructor should set the amount overdrawn to 0.
+E. Both withdraw and deposit methods must be overridden to accommodate these
+requirements.
+F. Create a CAccount object and invoke withdraw and deposit methods in TestAccount
+class.
